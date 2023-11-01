@@ -1,0 +1,79 @@
+programa {
+
+	cadeia usuario
+	inteiro senha
+	inteiro opcao
+		
+	funcao inicio() {
+
+	login()
+	mostrarMenu()
+	
+	}		
+	funcao login () {
+		
+		escreva ("Informe seu Login:\n")
+		leia(usuario)
+		limpa()
+		
+		escreva ("Informe sua Senha:\n")
+		leia(senha)
+		limpa()
+
+		se(usuario == usuario e senha == 123456)
+		    escreva ("Login bem sucedido!")
+		senao
+		    escreva ("Login ou senha incorreto! \nTente novamente!")
+	      limpa()
+	 }
+	       
+	funcao mostrarMenu () {
+
+		escreva("1) Inserir Produto\n")
+		escreva("2) Atualizar Produto\n")
+		escreva("3) Excluir Produto\n")
+		escreva("4) Exibir todos os Produtos\n")
+		escreva("5) Exibir Produtos por Ordem\n")
+		escreva("6) Exibir Produtos por Classificação\n")
+		escreva("7) Adicionar Estoque\n")
+		escreva("8) Remover Estoque\n")
+		escreva("9) Sair\n")
+		
+		escreva("\n")
+		
+		escreva("Qual a opção desejada?\n")
+		leia(opcao)
+		
+		escolha (opcao){
+
+			caso 1:					
+			pare
+			
+			caso 2:							
+			pare
+			
+			caso 3:							
+			pare
+			
+			caso 4:							
+			pare
+			
+			caso 5:							
+			pare
+
+			caso 6:							
+			pare
+			
+			caso 7:							
+			pare
+			
+			caso 8:
+			pare
+
+			caso 9:
+			pare
+			
+			caso contrario: escreva("Escolha uma opção válida!\n")
+			}
+		}
+	}
