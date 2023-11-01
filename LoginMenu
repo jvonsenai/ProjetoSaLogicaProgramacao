@@ -12,19 +12,22 @@ programa {
 	}		
 	funcao login () {
 		
+		faca {
 		escreva ("Informe seu Login:\n")
 		leia(usuario)
 		limpa()
-		
+
 		escreva ("Informe sua Senha:\n")
 		leia(senha)
 		limpa()
 
-		se(usuario == usuario e senha == 123456)
-		    escreva ("Login bem sucedido!")
+		se(usuario == usuario e senha == 123)
+    			escreva ("Login bem sucedido!")
+
 		senao
-		    escreva ("Login ou senha incorreto! \nTente novamente!")
-	      limpa()
+    			escreva ("Login ou senha incorreto! \nTente novamente!\n")
+}
+		enquanto(senha != 123)
 	 }
 	       
 	funcao mostrarMenu () {
